@@ -22,4 +22,4 @@ target:
 local_conf_header:
   # add packages to my image.
   my-layer: |
-    CORE_IMAGE_EXTRA_INSTALL += "packagegroup-fsl-tools-gpu-external packagegroup-fsl-tools-gpu packagegroup-fsl-tools-testapps"
+    CORE_IMAGE_EXTRA_INSTALL += "nginx"
