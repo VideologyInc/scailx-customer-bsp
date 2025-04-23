@@ -28,4 +28,4 @@ target:
 # add packages to my image by adding to the Yocto local.conf file.
 local_conf_header:
   my-layer: |
-    CORE_IMAGE_EXTRA_INSTALL += "packagegroup-fsl-tools-gpu-external packagegroup-fsl-tools-gpu packagegroup-fsl-tools-testapps"
+    CORE_IMAGE_EXTRA_INSTALL += "nginx"
